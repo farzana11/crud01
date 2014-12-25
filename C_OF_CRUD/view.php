@@ -5,9 +5,9 @@ $id = $_GET['id'];
 $link = mysqli_connect("localhost",
     "root",
     "lict@2",
-    "students");
+    "form");
 
-$query = "select * from users WHERE id = $id";
+$query = "select * from emails WHERE id = $id";
 
 $result = mysqli_query($link, $query);
 

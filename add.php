@@ -33,8 +33,8 @@ $query = "INSERT INTO `students`.`users` (
 `track`, `first_name` ,`last_name`, `father_name`, `mother_name`, `phone_number`, `email_address`, `alternative_email`, `national_id_number`, `birth_certificate_no`, `present_address`, `permanent_address`, `village`, `post_office`, `police_station`, `district`, `education_qualification`, `university`, `subject`, `result`, `passing_year`, `career_objective`, `job_experience`
 )
 VALUES (
-    '$track', '$lastName' , '$fatherName' , '$motherName' , '$phoneNumber' , '$emailAddress' , '$alternativeEmailAddress' , '$nationalIdNumber' , '$birthCertificateNo' , '$presentAddress' , '$permanentAddress' , '$village' , '$postOffice' , '$policeStation' , '$district' , '$educationalQualification' , '$university' , '$subject' , '$result' , '$passingYear','$careerObjective' , '$jobExperience'
- )";
+    '".$_POST['track']."', '".$_POST['firstName']."' , '".$_POST['lastName']."' , '".$_POST['fatherName']."' , '".$_POST['motherName']."' ,'".$_POST['phoneNumber']."' , '".$_POST['emailAddress']."' , ''".$_POST['alternativeEmailAddress']."' , '".$_POST['nationalIdNumber']."' , '".$_POST['birthCertificateNo']."' , '".$_POST['presentAddress']."' , '".$_POST['permanentAddress']."' , '".$_POST['village']."' , '".$_POST['postOffice']."' , '".$_POST['policeStation']."'' ,'".$_POST['district']."' , '".$_POST['educationalQualification']."' , '".$_POST['university']."' , '".$_POST['subject']."' , '".$_POST['result']."' , '".$_POST['passingYear']."','".$_POST['careerObjective']."' , '".$_POST['jobExperience']."'
+ );";
 
 mysqli_query($link, $query);
 header('location:list.php');

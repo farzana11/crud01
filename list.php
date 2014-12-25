@@ -52,7 +52,7 @@ $result = mysqli_query($link, $query);
         <td>Passing Year</td>
         <td>Career Objective</td>
         <td>Job Experience</td>
-        <td>Actiion</td>
+        <td>Action</td>
     </tr>
     <?php
     foreach($result as $row){
@@ -89,10 +89,10 @@ $result = mysqli_query($link, $query);
 
             <td>
                 <a href="view.php?id=<?php echo $row['id']?>">View/Show</a> |
-                <a href="#">Edit</a> |
+
 
                 <a href="delete.php?id=<?php echo $row['id']?>">Delete</a> |
-                <a href="softdelete.php?id=<?php echo $row['id']?>">Soft Delete</a>
+
             </td>
         </tr>
 

@@ -1,7 +1,7 @@
 <?php
 $link = mysqli_connect("localhost",
     "root",
-    "apple777",
+    "lict@2",
     "students");
 
 $query = "select * from users;";

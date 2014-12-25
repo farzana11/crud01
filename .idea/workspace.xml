@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b7c6246-3690-4ac2-a69e-7309cca711a1" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/add.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="crud01.iws" />
@@ -38,13 +37,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="add.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8395722" vertical-offset="129" max-vertical-offset="690">
+            <state vertical-scroll-proportion="-19.625" vertical-offset="129" max-vertical-offset="690">
               <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
               <folding>
                 <marker date="1419476020746" expanded="true" signature="1038:1854" placeholder="INSERT INTO ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/list.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.9477352" vertical-offset="1016" max-vertical-offset="1650">
+              <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+              <folding>
+                <marker date="1419476642626" expanded="true" signature="98:117" placeholder="select * fro..users..." />
               </folding>
             </state>
           </provider>
@@ -65,6 +76,7 @@
       <list>
         <option value="$PROJECT_DIR$/create.html" />
         <option value="$PROJECT_DIR$/add.php" />
+        <option value="$PROJECT_DIR$/list.php" />
       </list>
     </option>
   </component>
@@ -225,10 +237,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8395722" vertical-offset="129" max-vertical-offset="690">
+        <state vertical-scroll-proportion="-19.625" vertical-offset="129" max-vertical-offset="690">
           <caret line="40" column="2" selection-start-line="40" selection-start-column="2" selection-end-line="40" selection-end-column="2" />
           <folding>
             <marker date="1419476020746" expanded="true" signature="1038:1854" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/list.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9477352" vertical-offset="1016" max-vertical-offset="1650">
+          <caret line="104" column="0" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <marker date="1419476642626" expanded="true" signature="98:117" placeholder="select * fro..users..." />
           </folding>
         </state>
       </provider>
